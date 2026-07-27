@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANTES</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class=" border-bottom border-light">
+        <nav class="navbar navbar-expand-xl py-xl-0 pb-2 sticky-lg-top">
+            <div class="container ">
+                <div class="w-xl-fit-content d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="icons/main-icons/logo.svg" alt="" class="logo">
+                    </a>
+                    <div class="d-flex align-items-center d-xl-none gap-2">
+                        <button class="bg-transparent btn-search">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <div class="dropdown">
+                            <button class="w-fit-content text-uppercase bg-transparent border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                RU <i class="bi bi-chevron-down ms-2"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Английский</a></li>
+                                <li><a class="dropdown-item" href="#">Узбекский</a></li>
+                            </ul>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav mx-auto gap-xl-4 ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">О компании</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="directions.html">Направления</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Наши проекты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="career.html">Карьера</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-xl-flex align-items-center d-none gap-3 ms-auto">
+                    <div class="dropdown">
+                        <button class="w-fit-content bg-transparent border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Русский <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Английский</a></li>
+                            <li><a class="dropdown-item" href="#">Узбекский</a></li>
+                        </ul>
+                    </div>
+                    <button class="bg-transparent btn-search">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="py-5 bg-main-2">
+            <div class="container">
+                <h2 class="fw-extrabold ff-second text-lg mb-5">
+                    Наши проекты
+                </h2>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="w-100">
+                            <img src="images/projects-page/1.png" alt="" class="img-fluid">
+                            <div class="pe-lg-5">
+                                <div class="d-flex justify-content-between mt-4 pe-lg-5">
+                                    <p class="text-corp-2 text-xs mb-0">Год реализации: 2025</p>
+                                    <p class="text-xs text-center mb-0">Общая площадь <br>
+                                        <span class="fw-semibold text-sm">4 280 м²</span>
+                                    </p>
+                                </div>
+                                <h5 class=" text-lg fw-semibold">Boston Avenue</h5>
+                                <p class="text-xs pe-lg-5">
+                                    Boston Avenue — современный девятиэтажный жилой комплекс, созданный для комфортной городской жизни.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="w-100">
+                            <img src="images/projects-page/2.png" alt="" class="img-fluid">
+                            <div class="pe-lg-5">
+                                <div class="d-flex justify-content-between mt-4 pe-lg-5">
+                                    <p class="text-corp-2 text-xs mb-0">Год реализации: 2025</p>
+                                    <p class="text-xs text-center mb-0">Общая площадь <br>
+                                        <span class="fw-semibold text-sm">4 280 м²</span>
+                                    </p>
+                                </div>
+                                <h5 class=" text-lg fw-semibold">Park Residence</h5>
+                                <p class="text-xs pe-lg-5">
+                                    Boston Avenue — современный девятиэтажный жилой комплекс, созданный для комфортной городской жизни.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-lg-5 mt-3 border-top pt-lg-5 pt-3">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-5">
+                            <div class="w-100">
+                                <img src="images/projects-page/3.png" alt="" class="img-fluid">
+                                <div class="pe-lg-5">
+                                    <div class="d-flex justify-content-between mt-4 pe-lg-5">
+                                        <p class="text-corp-2 text-xs mb-0">Год реализации: 2025</p>
+                                        <p class="text-xs text-center mb-0">Общая площадь <br>
+                                            <span class="fw-semibold text-sm">4 280 м²</span>
+                                        </p>
+                                    </div>
+                                    <h5 class=" text-lg fw-semibold">Sayqal Residence</h5>
+                                    <p class="text-xs pe-lg-5">
+                                        Boston Avenue — современный девятиэтажный жилой комплекс, созданный для комфортной городской жизни.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="w-100">
+                                <img src="images/projects-page/4.png" alt="" class="img-fluid">
+                                <div class="pe-lg-5">
+                                    <div class="d-flex justify-content-between mt-4 pe-lg-5">
+                                        <p class="text-corp-2 text-xs mb-0">Год реализации: 2025</p>
+                                        <p class="text-xs text-center mb-0">Общая площадь <br>
+                                            <span class="fw-semibold text-sm">4 280 м²</span>
+                                        </p>
+                                    </div>
+                                    <h5 class=" text-lg fw-semibold">Humo Savdo Markazi</h5>
+                                    <p class="text-xs pe-lg-5">
+                                        Boston Avenue — современный девятиэтажный жилой комплекс, созданный для комфортной городской жизни.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 bg-corp text-white">
+            <div class="container py-lg-5">
+                <div class="row gy-4 justify-content-evenly">
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="w-100 h-100 text-center">
+                            <span class="fw-bold text-corp-2 text-lg">
+                                20K+
+                            </span>
+                            <p class="text-3xs mt-2 mb-0 text-uppercase ff-third fw-bold">
+                                ОБЩАЯ ПЛОЩАДЬ ПОСТРОЕННЫХ ОБЪЕКТОВ (М²)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="w-100 h-100 text-center">
+                            <span class="fw-bold text-corp-2 text-lg">
+                                12+
+                            </span>
+                            <p class="text-3xs mt-2 mb-0 text-uppercase ff-third fw-bold">
+                                АКТИВНЫХ ПРОЕКТОВ
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="w-100 h-100 text-center">
+                            <span class="fw-bold text-corp-2 text-lg">
+                                0.4B
+                            </span>
+                            <p class="text-3xs mt-2 mb-0 text-uppercase ff-third fw-bold">
+                                ОБЪЕМ ИНВЕСТИЦИЙ ($)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="w-100 h-100 text-center">
+                            <span class="fw-bold text-corp-2 text-lg">
+                                99%
+                            </span>
+                            <p class="text-3xs mt-2 mb-0 text-uppercase ff-third fw-bold">
+                                УДОВЛЕТВОРЕННОСТЬ КЛИЕНТОВ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 bg-main-2">
+            <div class="container">
+                <div class="position-relative">
+                    <h3 class="text-lg mb-5 fw-bold">
+                        Партнеры
+                    </h3>
+                    <div class="slick-slider partners">
+                        <div class="slider-item px-2">
+                            <div class="bg-white py-2 d-flex justify-content-center align-items-center partners-card">
+                                <img src="icons/partners/1.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="slider-item px-2">
+                            <div class="bg-white py-2 d-flex justify-content-center align-items-center partners-card">
+                                <img src="icons/partners/2.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="slider-item px-2">
+                            <div class="bg-white py-2 d-flex justify-content-center align-items-center partners-card">
+                                <img src="icons/partners/3.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="slider-item px-2">
+                            <div class="bg-white py-2 d-flex justify-content-center align-items-center partners-card">
+                                <img src="icons/partners/4.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="slider-item px-2">
+                            <div class="bg-white py-2 d-flex justify-content-center align-items-center partners-card">
+                                <img src="icons/partners/5.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="slider-item px-2">
+                            <div class="bg-white py-2 d-flex justify-content-center align-items-center partners-card">
+                                <img src="icons/partners/6.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-5  bg-corp border-top border-light text-white position-relative">
+        <div class="container">
+            <div class="row gy-4 justify-content-center">
+                <div class="col-lg-3 col-6">
+                    <div class="w-100 h-100">
+                        <img src="icons/main-icons/footer-logo.svg" alt="" class="img-fluid footer-logo">
+                    </div>
+                </div>
+                <div class="col-lg-1 d-lg-block d-none"></div>
+                <div class="col-lg-2">
+                    <div class="w-100">
+                        <p class="text-dirt fw-semibold text-sm">
+                            Навигация
+                        </p>
+                        <ul class="list-unstyled text-xs fw-light mb-0 ">
+                            <li class="mb-3">
+                                <a href="index.html">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="about.html">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="production.html">
+                                    Продукция
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="cooperation.html">
+                                    Сотрудничество
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="recipe.html">
+                                    Рецепты
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="contacts.html">
+                                    Контакты
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="horeca.html">
+                                    HoReCa
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="w-100">
+                        <p class="text-dirt fw-semibold text-sm">
+                            Контакты
+                        </p>
+                        <ul class="list-unstyled text-xs  fw-light mb-0">
+                            <li class="mb-3 d-flex gap-1">
+                                <i class="bi bi-telephone"></i>
+                                <div class="d-flex flex-column">
+                                    <a href="tel:+998933973333" class="">
+                                        <span>+998 93 397 33 33</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mb-3 d-flex gap-1">
+                                <i class="bi bi-telephone"></i>
+                                <div class="d-flex flex-column">
+                                    <a href="tel:+998712666661" class="">
+                                        <span>+998 71 266 66 61</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <a href="mailto:info@tanhoholding.uz" class="d-flex gap-1 ">
+                                    <i class="bi bi-envelope"></i>
+                                    <span>info@tanhoholding.uz</span>
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <address class="d-flex gap-1 ">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span>Ташкент , Мирзо-Улугбекский район , ул. Жасорат , 100</span>
+                                </address>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="w-100">
+                        <p class="text-dirt fw-semibold text-sm">
+                            Социальные сети
+                        </p>
+                        <ul class="list-unstyled d-flex align-items-center gap-lg-3 gap-4 text-sm">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="d-block text-center mt-5 pt-lg-5 text-decoration-underline fw-light text-sm">
+                Политика конфиденциальности
+            </a>
+        </div>
+        <img src="images/home-page/footer-img.svg" alt="" class="position-absolute d-lg-block d-none bottom-0 start-0">
+        <img src="images/home-page/footer-img-2.png" alt="" class="position-absolute d-lg-block d-none bottom-0 end-0">
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="https://kit.fontawesome.com/f817facf9f.js " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script src="main.js "></script>
+</body>
+
+</html>

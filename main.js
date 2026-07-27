@@ -113,9 +113,9 @@ $(document).ready(function () {
                     },
                 ]
             };
-        } if (slider.hasClass('categories-2')) {
+        } if (slider.hasClass('partners')) {
             extraOptions = {
-                slidesToShow: 5,
+                slidesToShow: 6,
                 slidesToScroll: 1,
                 infinite: false,
                 centerMode: false,

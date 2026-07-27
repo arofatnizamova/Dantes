@@ -1,6 +1,8 @@
 :root {
     --font-family-main: "Manrope", sans-serif;
     --font-family-second: "Exo 2", sans-serif;
+    --font-family-third: "Inter",
+        sans-serif;
     --color-corp: #0F172A;
     --color-corp-2: #D38100;
 }
@@ -55,10 +57,17 @@ a {
     font-size: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem);
 }
 
+.text-3xs {
+    font-size: clamp(0.6875rem, 0.675rem + 0.0625vw, 0.75rem);
+}
 
 /* utils */
 .ff-second {
     font-family: var(--font-family-second);
+}
+
+.ff-third {
+    font-family: var(--font-family-third);
 }
 
 .text-corp {
@@ -147,6 +156,10 @@ a {
     font-weight: 200 !important;
 }
 
+.fw-extrabold {
+    font-weight: 800;
+}
+
 .mt-custom {
     margin-top: -40px;
 }
@@ -190,9 +203,12 @@ a {
     box-shadow: none;
 }
 
+.nav-link {
+    color: black;
+}
 
 .nav-link:hover {
-    color: black;
+    color: var(--color-corp-2);
 }
 
 .navbar-toggler-icon {
@@ -219,9 +235,6 @@ footer a:hover {
     color: var(--color-corp-2);
 }
 
-.logo {
-    height: 90px;
-}
 
 .link-hover i {
     transition: all 0.3s ease;
@@ -265,6 +278,20 @@ footer a:hover {
     grid-row: 1 / span 2;
 }
 
+.btn-search {
+    border: 1px solid black;
+    padding: 4px 5px 2px 5px;
+    border-radius: 50px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.partners-card {
+    height: 100px;
+}
+
 /* breackpoints */
 @media(max-width: 1650px) {
     .img-size-lg {
@@ -272,7 +299,11 @@ footer a:hover {
     }
 }
 
-
+@media(max-width: 1200px) {
+    .w-xl-fit-content {
+        width: 100%;
+    }
+}
 
 @media(max-width: 990px) {
     .w-lg-fit-content {
