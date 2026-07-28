@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANTES</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class=" border-bottom border-light">
+        <nav class="navbar navbar-expand-xl py-xl-0 pb-2 sticky-lg-top">
+            <div class="container ">
+                <div class="w-xl-fit-content d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="icons/main-icons/logo.svg" alt="" class="logo">
+                    </a>
+                    <div class="d-flex align-items-center d-xl-none gap-2">
+                        <button class="bg-transparent btn-search">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <div class="dropdown">
+                            <button class="w-fit-content text-uppercase bg-transparent border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                RU <i class="bi bi-chevron-down ms-2"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Английский</a></li>
+                                <li><a class="dropdown-item" href="#">Узбекский</a></li>
+                            </ul>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav mx-auto gap-xl-4 ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">О компании</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="directions.html">Направления</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Наши проекты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="career.html">Карьера</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-xl-flex align-items-center d-none gap-3 ms-auto">
+                    <div class="dropdown">
+                        <button class="w-fit-content bg-transparent border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Русский <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Английский</a></li>
+                            <li><a class="dropdown-item" href="#">Узбекский</a></li>
+                        </ul>
+                    </div>
+                    <button class="bg-transparent btn-search">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="py-5 bg-main-2">
+            <div class="container">
+                <p class="mb-lg-5 mb-3 text-corp-2 text-xs fw-semibold">Стратегические подразделения</p>
+                <h2 class="fw-extrabold ff-second text-xl mb-3">
+                    Строительство и <br> девелопмент
+                </h2>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <p class="text-xs mb-lg-5 mb-3">
+                            Строительная инвестиционная группа Dantes Construction работает как многопрофильный холдинг, объединяющий градостроительство высокого уровня с региональной транспортной инфраструктурой и стратегиями устойчивого инвестирования.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container py-lg-5">
+                <div class="row gy-4">
+                    <div class="col-lg-5">
+                        <div class="w-100 h-100 d-flex align-items-center">
+                            <div class="pe-lg-5">
+                                <span class="text-corp-2 text-sm fw-bold">01</span>
+                                <h3 class="text-lg fw-semibold mt-4 mb-3">
+                                    Направления деятельности
+                                </h3>
+                                <p class="text-xs">
+                                    Наши жилые экосистемы основаны на трех незыблемых принципах: структурной безопасности, интегрированных зеленых зонах и перспективной инфраструктуре.
+                                </p>
+                                <ul class="list-unstyled mt-lg-5 mt-4 text-xs">
+                                    <li class="mb-3 d-flex gap-2">
+                                        <i class="bi bi-patch-check text-corp-2"></i>
+                                        <span>
+                                            Сейсмическая целостность конструкции превышает региональные стандарты.
+                                        </span>
+                                    </li>
+                                    <li class="mb-3 d-flex gap-2">
+                                        <i class="bi bi-leaf text-corp-2"></i>
+                                        <span>
+                                            Интеграция экосистемы с устойчивым управлением водными ресурсами.
+                                        </span>
+                                    </li>
+                                    <li class="mb-3 d-flex gap-2">
+                                        <i class="bi bi-robot text-corp-2"></i>
+                                        <span>
+                                            Инфраструктура "умного дома" и высокоскоростное подключение.
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="w-100 h-100 d-flex align-items-center">
+                            <div class="">
+                                <img src="images/directions-page/1.png" alt="" class="img-fluid">
+                                <p class="text-corp-2 mt-2 text-xs fw-bold mb-1">
+                                    Boston Avenue
+                                </p>
+                                <p class="text-xs">
+                                    Девятиэтажный ЖК, бизнес-класс, сдан в 2025.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="w-100 h-100 d-flex align-items-center">
+                            <div class="">
+                                <img src="images/directions-page/2.png" alt="" class="img-fluid">
+                                <p class="text-corp-2 mt-2 text-xs fw-bold mb-1">
+                                    Sayqal Residence
+                                </p>
+                                <p class="text-xs">
+                                    Многофункциональный центральный комплекс, сдача в 2027 (флагман).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 bg-corp text-white">
+            <div class="container py-lg-5">
+                <div class="row gy-4 gx-lg-5 gx-0">
+                    <div class="col-lg-6">
+                        <div class="w-100 h-100 border-end border-dark pe-3">
+                            <span class="text-corp-2 text-sm fw-bold">02</span>
+                            <h3 class="my-4 fw-semibold text-xl">
+                                Архитектурные и инфраструктурные стандарты кварталов
+                            </h3>
+                            <p class="text-xs fw-light">
+                                Компания обслуживает до 90% всех городских и пригородных маршрутов региона.
+                            </p>
+                            <div class="row gy-4 mt-5 justify-content-evenly">
+                                <div class="col-xl-4">
+                                    <div class="w-100 h-100 text-center">
+                                        <span class="text-lg fw-bold text-corp-2">52</span>
+                                        <p class="ff-third text-3xs text-uppercase">
+                                            Пассажирский транспорт Yutong
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="w-100 h-100 text-center">
+                                        <span class="text-lg fw-bold text-corp-2">90%</span>
+                                        <p class="ff-third text-3xs text-uppercase">
+                                            Масштаб присутствия
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="w-100 h-100 text-center">
+                                        <span class="text-lg fw-bold text-corp-2">120+</span>
+                                        <p class="ff-third text-3xs text-uppercase">
+                                            ЕДИНИЦЫ ИЗМЕРЕНИЯ АВТОПАРКА
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="w-100 h-100">
+                            <span class="text-corp-2 text-sm fw-bold d-block text-lg-end">03</span>
+                            <h3 class="my-4 fw-semibold text-xl">
+                                Автотранспортный комплекс
+                            </h3>
+                            <p class="text-xs fw-light">
+                                Объект: Гулистон, 2535. Центральный узел логистики и технического обслуживания, занимающий более 2,07 гектаров специализированной инфраструктуры.
+                            </p>
+                            <div class="row gy-4 mt-5 justify-content-evenly">
+                                <div class="col-xl-4">
+                                    <div class="w-100 h-100 text-center">
+                                        <p class="ff-third mb-0 text-3xs text-uppercase text-corp-2">
+                                            Площадь земельного <br> участка
+                                        </p>
+                                        <p class="text-xs">
+                                            2,07 га
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="w-100 h-100 text-center">
+                                        <p class="ff-third mb-0 text-3xs text-uppercase text-corp-2">
+                                            Общая площадь <br> капитальных строений
+                                        </p>
+                                        <p class="text-xs">
+                                            1 672,8 м²
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container py-lg-5">
+                <div class="row gy-4 justify-content-between flex-lg-row-reverse">
+                    <div class="col-lg-5">
+                        <div class="w-100 h-100 ">
+                            <span class="text-corp-2 text-sm fw-bold">04</span>
+                            <h3 class="my-4 fw-semibold text-xl">
+                                Коммерческая недвижимость
+                            </h3>
+                            <p class="my-3 text-corp-2 fw-bold text-xs">
+                                Humo Savdo Markazi
+                            </p>
+                            <p class="text-xs fw-light">
+                                Одним из ключевых направлений деятельности DANTES Construction Investment Group является девелопмент и управление собственными объектами торговой и деловой недвижимости.
+                            </p>
+                            <div class="row gy-4 mt-5 justify-content-evenly">
+                                <div class="col-lg-4 col-6">
+                                    <div class="w-100 h-100 text-center">
+                                        <p class="ff-third mb-0 text-3xs text-uppercase text-corp-2">
+                                            Этажность
+                                        </p>
+                                        <p class="text-xs">
+                                            3 уровня
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4 col-6">
+                                    <div class="w-100 h-100 text-center">
+                                        <p class="ff-third mb-0 text-3xs text-uppercase text-corp-2">
+                                            Общая площадь
+                                        </p>
+                                        <p class="text-xs">
+                                            более 13 000 м²
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-6">
+                                    <div class="w-100 h-100 text-center">
+                                        <p class="ff-third mb-0 text-3xs text-uppercase text-corp-2">
+                                            Торговая площадь
+                                        </p>
+                                        <p class="text-xs">
+                                            10 095,68 м²
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="w-100 h-100 d-flex align-items-center">
+                            <img src="images/directions-page/3.png" alt="" class="img-fluid ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 bg-main-2">
+            <div class="container py-lg-5">
+                <span class="text-corp-2 text-sm fw-bold">05</span>
+                <div class="row gy-4 mt-1 justify-content-between">
+                    <div class="col-lg-6">
+                        <h3 class="fw-semibold text-xl">
+                            Инвестиционные проекты
+                        </h3>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="text-xs fw-light">
+                            Холдинг инвестирует в высокотехнологичные и инфраструктурные проекты, развивая экспортный потенциал Узбекистана и создавая новые рабочие места.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="w-100 h-100 bg-white p-4 d-flex flex-column align-items-start">
+                            <img src="icons/directions-page/1.svg" alt="" class="icon-size-xs">
+                            <p class="my-3 text-sm fw-bold"> Зеленые технологии и экотранспорт</p>
+                            <p class="text-xs fw-light mb-5">
+                                Развиваем экологичный общественный транспорт через поэтапное внедрение электробусов и создание современной зарядной инфраструктуры.
+                            </p>
+                            <a href="#" class="d-block mt-auto pb-lg-5 text-uppercase text-corp-2">
+                                СТРАТЕГИЧЕСКИЙ ПРИОРИТЕТ<i class="fa-solid fa-arrow-right-long ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="w-100 h-100 bg-corp text-white p-4 d-flex flex-column align-items-start">
+                            <img src="icons/directions-page/2.svg" alt="" class="icon-size-xs">
+                            <p class="my-3 text-sm fw-bold"> Индустриальный сектор и производство</p>
+                            <p class="text-xs fw-light mb-5">
+                                Строим современные производства и индустриальные парки, развивая экспортный потенциал и промышленную инфраструктуру региона.
+                            </p>
+                            <a href="#" class="d-block mt-auto pb-lg-5 text-uppercase text-corp-2">
+                                локализация<i class="fa-solid fa-arrow-right-long ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="w-100 h-100 bg-white p-4 d-flex flex-column align-items-start">
+                            <img src="icons/directions-page/3.svg" alt="" class="icon-size-xs">
+                            <p class="my-3 text-sm fw-bold"> Логистика и складская инфраструктура</p>
+                            <p class="text-xs fw-light mb-5">
+                                Развиваем современные логистические хабы и складские комплексы для эффективной обработки грузов и управления цепочками поставок.
+                            </p>
+                            <a href="#" class="d-block mt-auto pb-lg-5 text-uppercase text-corp-2">
+                                РЕГИОНАЛЬНЫЙ ЦЕНТР<i class="fa-solid fa-arrow-right-long ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-5  bg-corp border-top border-light text-white position-relative">
+        <div class="container">
+            <div class="row gy-4 justify-content-between">
+                <div class="col-lg-3 col-6">
+                    <div class="w-100 h-100">
+                        <img src="icons/main-icons/footer-logo.svg" alt="" class="img-fluid footer-logo">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="w-100">
+                        <p class="text-dirt fw-semibold text-sm">
+                            Навигация
+                        </p>
+                        <ul class="list-unstyled text-xs fw-light mb-0 ">
+                            <li class="mb-3">
+                                <a href="index.html">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="about.html">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="directions.html">
+                                    Направления 
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="projects.html">
+                                    Наши проекты 
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="news.html">
+                                    Новости
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="career.html">
+                                    Карьера
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="w-100">
+                        <p class="text-dirt fw-semibold text-sm">
+                            Контакты
+                        </p>
+                        <ul class="list-unstyled text-xs  fw-light mb-0">
+                            <li class="mb-3 d-flex gap-1">
+                                <i class="bi bi-telephone"></i>
+                                <div class="d-flex gap-3">
+                                    <a href="tel:+998994605757" class="">
+                                        <span>+998 99 460-57-57</span>
+                                    </a>
+                                    <a href="tel:+998996905757" class="">
+                                        <span>+998 99 690-57-57</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <a href="mailto:info@dantes.uz" class="d-flex gap-1 ">
+                                    <i class="bi bi-envelope"></i>
+                                    <span>E-mail: info@dantes.uz</span>
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <address class="d-flex gap-1 ">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span>Республика Узбекистан,  Сырдарьинская область, г. Гулистан, ул. Самарканд, дом  40-Г</span>
+                                </address>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="w-100">
+                        <p class="text-dirt fw-semibold text-sm">
+                            Социальные сети
+                        </p>
+                        <ul class="list-unstyled  text-xs">
+                            <li class="mb-3">
+                                <a href="#" class="d-flex align-items-center gap-2">
+                                    <i class="fa-brands fa-telegram"></i>
+                                    <span>Telegram</span>
+                                </a>
+                            </li>
+                            <a href="#" class="d-flex align-items-center gap-2">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="d-block text-center mt-5 pt-lg-5 text-decoration-underline fw-light text-sm">
+                Политика конфиденциальности
+            </a>
+        </div>
+        <img src="images/home-page/footer-img.svg" alt="" class="position-absolute d-lg-block d-none bottom-0 start-0">
+        <img src="images/home-page/footer-img-2.png" alt="" class="position-absolute d-lg-block d-none bottom-0 end-0">
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="https://kit.fontawesome.com/f817facf9f.js " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script src="main.js "></script>
+</body>
+
+</html>
