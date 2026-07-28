@@ -145,7 +145,7 @@ a {
 }
 
 .btn-corp {
-    background: var(--color-corp);
+    background: var(--color-corp-2);
     color: white;
 }
 
@@ -396,6 +396,20 @@ footer a:hover {
 
 .icon-size-xs {
     height: 30px;
+}
+
+.form-control-2 {
+    color: white;
+    display: block;
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: 15px 15px 15px 0px;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.3);
+}
+
+.form-control-2::placeholder {
+    color: rgba(226, 232, 240, 0.3);
 }
 
 
