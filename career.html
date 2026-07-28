@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANTES</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class=" border-bottom border-light">
+        <nav class="navbar navbar-expand-xl py-xl-0 pb-2 sticky-lg-top">
+            <div class="container ">
+                <div class="w-xl-fit-content d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="icons/main-icons/logo.svg" alt="" class="logo">
+                    </a>
+                    <div class="d-flex align-items-center d-xl-none gap-2">
+                        <button class="bg-transparent btn-search">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <div class="dropdown">
+                            <button class="w-fit-content text-uppercase bg-transparent border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                RU <i class="bi bi-chevron-down ms-2"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Английский</a></li>
+                                <li><a class="dropdown-item" href="#">Узбекский</a></li>
+                            </ul>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav mx-auto gap-xl-4 ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">О компании</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="directions.html">Направления</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Наши проекты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="career.html">Карьера</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-xl-flex align-items-center d-none gap-3 ms-auto">
+                    <div class="dropdown">
+                        <button class="w-fit-content bg-transparent border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Русский <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Английский</a></li>
+                            <li><a class="dropdown-item" href="#">Узбекский</a></li>
+                        </ul>
+                    </div>
+                    <button class="bg-transparent btn-search">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="position-relative text-white">
+            <img src="images/career-page/banner-img.png" alt="" class="img-fluid h-sm-400">
+            <div class="position-absolute z-2 d-flex align-items-center w-100 h-100 top-0 start-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="w-100">
+                                <h1 class="text-3xl ff-second">
+                                    <span class="fw-bold">Строим будущее <br>
+                                        вместе
+                                </h1>
+                                <p class="text-sm my-lg-5 my-3">
+                                    Станьте частью команды DANTES Construction Investment Group — лидера экономического развития Сырдарьинской области.
+                                </p>
+                                <a href="#" class="btn btn-outline-white"> ОТКРЫТЫЕ ВАКАНСИИ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container py-lg-5">
+                <div class="row gy-4 justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="w-100 h-100">
+                            <h3 class="fw-semibold text-corp-2 text-xs">О команде</h3>
+                            <p class="fw-semibold text-lg">
+                                Интеллектуальный капитал холдинга
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="w-100 h-100">
+                            <p class="text-xs">
+                                DANTES — это сообщество более чем из 300 профессионалов,
+                                    объединенных общей миссией. Наша команда объединяет экспертов в
+                                    области девелопмента, архитектуры, логистики, управления
+                                    недвижимостью и финансов. <br><br>
+                                    Мы создаем условия для непрерывного профессионального роста,
+                                    инвестируя в потенциал каждого сотрудника. Работа в DANTES — это
+                                    не просто карьера, это вклад в повышение качества жизни в
+                                    Узбекистане и создание знаковых объектов, меняющих облик страны.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-lg-5 mt-4 pt-lg-5 pt-4 border-top">
+                    <div class="row gy-3 justify-content-evenly">
+                        <div class="col-lg-2 col-sm-6">
+                            <div class="w-100 h-100 text-center">
+                                <span class="text-lg fw-bold">300+</span>
+                                    <p class="text-3xs fw-bold text-uppercase ff-third mt-1">
+                                        СПЕЦИАЛИСТОВ
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6">
+                            <div class="w-100 h-100 text-center">
+                                <span class="text-lg fw-bold text-corp-2">15+</span>
+                                <p class="text-3xs fw-bold text-uppercase ff-third mt-1">
+                                    МАСШТАБНЫХ ПРОЕКТОВ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6">
+                            <div class="w-100 h-100 text-center">
+                                <span class="text-lg fw-bold ">10</span>
+                                <p class="text-3xs fw-bold text-uppercase ff-third mt-1">
+                                    ЛЕТ СТАБИЛЬНОСТИ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6">
+                            <div class="w-100 h-100 text-center">
+                                <span class="text-lg fw-bold text-corp-2">100%</span>
+                                <p class="text-3xs fw-bold text-uppercase ff-third mt-1">
+                                    ОФИЦИАЛЬНОЕ ТРУДОУСТРОЙСТВО
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-corp text-white py-5">
+            <div class="container py-lg-5">
+                <h3 class="fw-semibold mb-5 text-lg text-center">
+                    Почему выбирают нас?
+                </h3>
+
+                <div class="row gy-4">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="w-100 h-100 border p-4">
+                            <span class="text-lg text-corp-2 fw-semibold">
+                                01
+                            </span>
+
+                            <p class="fw-semibold my-3 text-sm">
+                                Стабильность и масштаб
+                            </p>
+
+                            <p class="text-xs mb-lg-5 pb-lg-5">
+                                Официальное трудоустройство, конкурентоспособная заработная плата и уверенность в завтрашнем дне.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6">
+                        <div class="w-100 h-100 border p-4">
+                            <span class="text-lg text-corp-2 fw-semibold">
+                                02
+                            </span>
+
+                            <p class="fw-semibold my-3 text-sm">
+                                Профессиональный рост
+                            </p>
+
+                            <p class="text-xs mb-lg-5 pb-lg-5">
+                                Участие в амбициозных проектах — жилых комплексах премиум-класса, транспортных хабах — и обучение.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6">
+                        <div class="w-100 h-100 border p-4">
+                            <span class="text-lg text-corp-2 fw-semibold">
+                                03
+                            </span>
+
+                            <p class="fw-semibold my-3 text-sm">
+                                Современные стандарты
+                            </p>
+
+                            <p class="text-xs mb-lg-5 pb-lg-5">
+                                Передовые строительные технологии и управление современным парком автобусов Yutong.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6">
+                        <div class="w-100 h-100 border p-4">
+                            <span class="text-lg text-corp-2 fw-semibold">
+                                04
+                            </span>
+
+                            <p class="fw-semibold my-3 text-sm">
+                                Опытная команда
+                            </p>
+
+                            <p class="text-xs mb-lg-5 pb-lg-5">
+                                Дружный коллектив, объединённый ценностями надёжности, ответственности и инноваций.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row gy-4 justify-content-between">
+                    <div class="col-lg-4">
+                        <div class="w-100 h-100 d-flex flex-column justify-content-center">
+                            <h3 class="fw-semibold text-lg mb-5">
+                                Отправить резюме
+                            </h3>
+                            <p class="text-xs">
+                                Заполните краткую анкету, и мы обязательно сохраним ваши данные в нашей базе талантов. Наш HR-отдел свяжется с вами при появлении подходящей вакансии.
+                            </p>
+                            <div class="mt-5">
+                                <a href="mailto:hr@dantes-group.uz" class="text-xs mb-2 d-block">hr@dantes-group.uz</a>
+                                <a href="tel:+998781234567" class="text-xs mb-3 d-block">+998 (78) 123-45-67</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="w-100 bg-main border-top border-corp-2 border-2 p-lg-5 p-4">
+                            <form action="" class="w-100">
+                                <div class="row gy-4 gx-lg-2 gx-0">
+                                    <div class="col-lg-6">
+                                        <div class="">
+                                            <label for="name" class="form-label">ФИО</label>
+                                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="">
+                                            <label for="name" class="form-label">Номер телефона</label>
+                                            <input type="tel" class="form-control" id="name" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="">
+                                            <label for="name" class="form-label">E-mail</label>
+                                            <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="">
+                                            <label for="name" class="form-label">Сфера деятельности / Специализация</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Выберите направление</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                              </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label" for="resume">
+                                            Файл резюме
+                                        </label>
+
+                                        <div class="upload-area" id="uploadArea">
+                                            <input type="file" id="resume" name="resume" class="d-none" accept=".pdf,.doc,.docx">
+
+                                            <label for="resume" class="upload-label">
+                                                <i class="bi bi-cloud-arrow-up fs-2 mb-3"></i>
+                                    
+                                                <p class="mb-0">
+                                                    <span class="fw-semibold">Прикрепите файл</span>
+                                                    или перетащите его сюда
+                                                </p>
+                                    
+                                                <small class="text-muted">
+                                                    PDF, DOC, DOCX, до 10 MB
+                                                </small>
+                                    
+                                                <div class="selected-file mt-3 d-none">
+                                                    <i class="bi bi-file-earmark-text"></i>
+                                                    <span></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn d-block mt-4 w-100 bg-dark text-white text-uppercase">
+                                    ОТПРАВИТЬ АНКЕТУ
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="position-relative">
+            <img src="images/career-page/1.png" alt="" class="img-fluid object-fit-cover h-sm-400 w-100">
+            <div class="position-absolute z-2 top-0 start-0 w-100 h-100 d-flex align-items-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="w-100 text-center text-white">
+                                <h3 class="text-3xl fw-semibold mb-0">
+                                    Вдохновляя города, </h3>
+                                <p class="text-lg fw-mormal">создавая возможности</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-5  bg-corp border-top border-light text-white position-relative">
+        <div class="container">
+            <div class="row gy-4 justify-content-between">
+                <div class="col-lg-3 col-6">
+                    <div class="w-100 h-100">
+                        <img src="icons/main-icons/footer-logo.svg" alt="" class="img-fluid footer-logo">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="w-100">
+                        <p class="text-dirt fw-semibold text-sm">
+                            Навигация
+                        </p>
+                        <ul class="list-unstyled text-xs fw-light mb-0 ">
+                            <li class="mb-3">
+                                <a href="index.html">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="about.html">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="directions.html">
+                                    Направления 
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="projects.html">
+                                    Наши проекты 
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="news.html">
+                                    Новости
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="career.html">
+                                    Карьера
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="w-100">
+                        <p class="text-dirt fw-semibold text-sm">
+                            Контакты
+                        </p>
+                        <ul class="list-unstyled text-xs  fw-light mb-0">
+                            <li class="mb-3 d-flex gap-1">
+                                <i class="bi bi-telephone"></i>
+                                <div class="d-flex gap-3">
+                                    <a href="tel:+998994605757" class="">
+                                        <span>+998 99 460-57-57</span>
+                                    </a>
+                                    <a href="tel:+998996905757" class="">
+                                        <span>+998 99 690-57-57</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <a href="mailto:info@dantes.uz" class="d-flex gap-1 ">
+                                    <i class="bi bi-envelope"></i>
+                                    <span>E-mail: info@dantes.uz</span>
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <address class="d-flex gap-1 ">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span>Республика Узбекистан,  Сырдарьинская область, г. Гулистан, ул. Самарканд, дом  40-Г</span>
+                                </address>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="w-100">
+                        <p class="text-dirt fw-semibold text-sm">
+                            Социальные сети
+                        </p>
+                        <ul class="list-unstyled  text-xs">
+                            <li class="mb-3">
+                                <a href="#" class="d-flex align-items-center gap-2">
+                                    <i class="fa-brands fa-telegram"></i>
+                                    <span>Telegram</span>
+                                </a>
+                            </li>
+                            <a href="#" class="d-flex align-items-center gap-2">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="d-block text-center mt-5 pt-lg-5 text-decoration-underline fw-light text-sm">
+                Политика конфиденциальности
+            </a>
+        </div>
+        <img src="images/home-page/footer-img.svg" alt="" class="position-absolute d-lg-block d-none bottom-0 start-0">
+        <img src="images/home-page/footer-img-2.png" alt="" class="position-absolute d-lg-block d-none bottom-0 end-0">
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="https://kit.fontawesome.com/f817facf9f.js " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script src="main.js "></script>
+</body>
+
+</html>
